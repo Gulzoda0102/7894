@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.header__h{
+    box-sizing: border-box;
+    border-bottom: 1px solid #f0f0f5;
+    background: #ffffff;
+    font-size: 30px;
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 500px;
+}
+.header__li{
+    text-decoration: none;
+}
+.header__ul{
+    list-style: none;
+    display: flex;
+    color: #101010;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0px;
+    gap: 30px;
+    text-decoration: none;
+
+}
+.div__header{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    
+}
+.section__h{
+    font-size: 90px;
+    margin: 30px 0;
+    
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+.section__img{
+    flex-wrap: wrap;
+    padding: 25px;
+}
+.section__wrapper{
+    display: flex;
+    width: 100%;
+    background-color: #f2f4f6;
+    height: 800px;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 2px solid #000000;
+    
+}
+.section__div2{
+    display: flex;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 6px;
+    background: #f2f4f6;
+    width: 384px;
+    height: 358px;
+    margin: 20px;
+}
+.section__footer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.footer__img{
+    margin-top: 50px ;
+}
+.div__p{
+    color: #000000;
+font-family: "Plus Jakarta Sans";
+font-size: 15px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+margin: 30px;
+text-decoration: none;
+}
+.div__hover{
+    color: #000000;
+font-family: "Plus Jakarta Sans";
+font-size: 32px;
+font-weight: 600;
+line-height: 140%;
+letter-spacing: 0px;
+text-align: left;
+margin: 50px;
+}
+.section__div2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    transition: 1s ease-in-out;
+}
+.section__div2:hover{
+    border-radius: 6px;
+background: #1aab7b;
+
+}
